@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+# We keep one-chip-parser.spec as it is project config, but ignore build/dist build outputs
+build/
+dist/
+
+# Project scraped data and temp directories
+failed.txt
+parse.log
+products.csv
+products.json
+products.xlsx
+products_Без_корня.csv
+products_Загрузчики.csv
+products_Редакторы.csv
+demo.json
+demo.xlsx
+demo_Загрузчики.csv
+demo_Редакторы.csv
+parse_*/
+
+# OS
+.DS_Store
+Thumbs.db
